@@ -1,0 +1,142 @@
+@media (max-width:1700px) {
+    .navigation {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .mapIMG {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:1000px) {
+    .nav-li {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        font-size: 25px;
+    }
+
+    .nav-logo {
+        width: 100px;
+    }
+    :root {
+        --form-title-size: 18px;
+        --form-input-width: 500px;
+        --form-input-height: 60px;
+        --form-input-massage: 100px;
+        --form-text-hint: 14px;
+    }
+}
+
+@media (max-width:800px) {
+    .forms-div {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 57px;
+    }
+}
+
+@media (max-width: 600px) {
+    .send-button {
+        max-width: 150px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    :root {
+        --form-title-size: 18px;
+        --form-input-width: 400px;
+        --form-input-height: 60px;
+        --form-input-massage: 100px;
+        --form-text-hint: 14px;
+    }
+
+    .mapIMG {
+        margin-bottom: 57px;
+    }
+
+    .forms-div {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-logo {
+        width: 80px;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .mapIMG {
+        margin-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-logo {
+        width: 60px;
+    }
+    .burger {
+        font-size: 20px;
+    }
+    .navigation {
+        margin-top: 40px;
+    }
+}
+
+    
+@media (max-width: 450px) {
+    :root {
+        --form-title-size: 15px;
+        --form-input-width: 350px;
+        --form-input-height: 50px;
+        --form-input-massage: 70px;
+        --form-text-hint: 12px;
+    }
+
+    .forms-div {
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navigation {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    :root {
+        --form-title-size: 12px;
+        --form-input-width: 300px;
+        --form-input-height: 40px;
+        --form-input-massage: 60px;
+        --form-text-hint: 10px;
+    }
+
+    .forms-div {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-logo {
+        width: 40px;
+    }
+    .burger {
+        font-size: 15px;
+    }
+    .navigation {
+        margin-top: 25px;
+    }
+    .navigation {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
