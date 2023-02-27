@@ -28,7 +28,7 @@ section, .navigation {
     margin-left: 50px;
 }
 
-.fa-solid  {
+.nav-li:nth-child(5)  {
     opacity: 40%;
 }
 
@@ -40,6 +40,10 @@ section, .navigation {
 .nav-logo {
     max-width: 122px;
     width: 100%;
+}
+
+.burger {
+    display: none;
 }
 /* END NAVIGATION */
 .mapIMG {
