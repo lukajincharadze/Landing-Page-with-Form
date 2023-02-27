@@ -1,0 +1,64 @@
+/* NAVIGATION */
+body {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nav-bar__ul {
+    display: flex;
+}
+
+.nav-li:nth-child(-n +6) {
+    margin-left: 50px;
+}
+
+.nav-logo {
+    max-width: 122px;
+    width: 100%;
+}
+
+.mapIMG {
+    max-width: 1640px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END NAVIGATION */
