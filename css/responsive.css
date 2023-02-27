@@ -10,6 +10,13 @@
     }
 }
 
+@media (max-width:1200px) {
+    .footer {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
 @media (max-width:1000px) {
     .nav-li {
         display: none;
@@ -30,6 +37,20 @@
         --form-input-massage: 100px;
         --form-text-hint: 14px;
     }
+    .footer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .footer-logo {
+        width: 80px;
+    }
+
+    .fa-facebook {
+        margin-right: 20px;
+    }
+    input[type=submit] {
+        margin-bottom: 350px;
+    }
 }
 
 @media (max-width:800px) {
@@ -38,6 +59,30 @@
         width: 100%;
         margin: 0 auto;
         margin-top: 57px;
+    }
+
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-logo {
+        width: 60px;
+    }
+
+    .fa-facebook {
+        margin-right: 18px;
+    }
+
+    .footer-li {
+        font-size: 15px;
+    }
+
+    .footer-li i {
+        font-size: 25px;
+    }
+    input[type=submit] {
+        margin-bottom: 250px;
     }
 }
 
@@ -70,6 +115,34 @@
         width: 80px;
     }
 
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        height: 350px;
+    }
+
+    .footer-logo {
+        padding-top: 20px;
+        width: 60px;
+    }
+
+    .fa-facebook {
+        margin-right: 18px;
+    }
+
+    .footer-li {
+        font-size: 15px;
+    }
+
+    .footer-li i {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    input[type=submit] {
+        margin-bottom: 200px;
+    }
 }
 
 @media (max-width: 570px) {
@@ -86,6 +159,10 @@
     }
     .navigation {
         margin-top: 40px;
+    }
+
+    input[type=submit] {
+        margin-bottom: 150px;
     }
 }
 
@@ -107,6 +184,16 @@
     .navigation {
         margin-top: 30px;
     }
+
+    input[type=submit] {
+        margin-bottom: 100px;
+    }
+
+    .footer {
+        height: 500px;
+        justify-content: space-around;
+    }
+
 }
 
 @media (max-width: 380px) {
