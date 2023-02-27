@@ -15,14 +15,22 @@ section, .navigation {
 }
 .navigation {
     font-family: 'Lato', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .nav-bar__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -110,12 +118,20 @@ input[type=submit] {
     height: 207px;
     width: 100%;
     background-color: #2e2e2e;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .footerThirdbox-social_Icons ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -132,6 +148,5 @@ input[type=submit] {
 ul li i {
     font-size: 40px;
 }
-
 
 

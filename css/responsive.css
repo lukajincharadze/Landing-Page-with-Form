@@ -118,7 +118,10 @@
     .footer {
         padding-left: 10px;
         padding-right: 10px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 350px;
     }
 
@@ -191,7 +194,8 @@
 
     .footer {
         height: 500px;
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
 
 }
@@ -225,5 +229,4 @@
         padding-right: 20px;
     }
 }
-
 
