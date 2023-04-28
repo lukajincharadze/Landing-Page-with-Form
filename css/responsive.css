@@ -18,11 +18,14 @@
 }
 
 @media (max-width:1000px) {
+    /* section {
+        margin-top: 130px;
+    } */
     .search {
         display: none;
     }
     .nav-bar__div {
-        /* display: none; */
+        display: none;
         margin-top: 110px;
     }
 
@@ -50,7 +53,7 @@
     .nav-bar__div.active {
         display: block;
     }
-    
+
     .nav-bar__ul {
         text-align: center;
     }
@@ -199,6 +202,10 @@
     input[type=submit] {
         margin-bottom: 150px;
     }
+    .nav-bar__title {
+        top: 70px;
+    }
+
 }
 
     
@@ -259,6 +266,9 @@
     .navigation {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .nav-bar__title {
+        top: 85px;
     }
 }
 
