@@ -47,6 +47,10 @@
         left: 30px;
     }
 
+    .nav-bar__div.active {
+        display: block;
+    }
+    
     .nav-bar__ul {
         text-align: center;
     }
