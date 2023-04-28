@@ -18,15 +18,43 @@
 }
 
 @media (max-width:1000px) {
-    .nav-li {
+    .search {
         display: none;
     }
-
-    .burger {
-        display: block;
-        font-size: 25px;
+    .nav-bar__div {
+        /* display: none; */
+        margin-top: 110px;
     }
 
+    .navigation {
+        flex-direction: column;
+    }
+
+    .nav-bar__ul {
+        flex-direction: column;
+    }
+
+    .toggle-button {
+        display: block;
+    }
+
+    .nav-bar__title {
+        max-width: 122px;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        top: 56px;
+        left: 30px;
+    }
+
+    .nav-bar__ul {
+        text-align: center;
+    }
+
+    .nav-li:nth-child(-n +6) {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
     .nav-logo {
         width: 100px;
     }

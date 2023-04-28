@@ -47,13 +47,17 @@ section, .navigation {
     font-size: 20px;
 }
 
-.nav-logo {
+.nav-bar__title {
     max-width: 122px;
     width: 100%;
 }
 
-.burger {
+.toggle-button {
     display: none;
+    font-size: 25px;
+    position: absolute;
+    top: 84px;
+    right: 30px;
 }
 /* END NAVIGATION */
 .mapIMG {
